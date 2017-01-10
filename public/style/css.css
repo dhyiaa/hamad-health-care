@@ -1,0 +1,102 @@
+@import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=Lato:400i');
+
+.card-title{top:0px;}
+#mail{padding: 10px;border: 2px #fff solid;border-radius: 5px;text-align: center;text-decoration: rtl;margin-right: 10px; font-size:20pt;}
+.btn{margin-right:5px;text-align: center;float: none;width:100%;}
+.tab a{font-family:"Droid Arabic Kufi";font-size: 40px; margin-right:-70px;}
+.up{font-size:50px; margin-top:-5px;}
+@media only screen and (min-width: 1000px) {
+	.ul-{margin-right: 50px}
+	.map{height:400px;margin-bottom:40px;}
+	.serv{height: 500px; opacity: 0.9; transition: 0.4s; cursor: pointer;filter:blur(0px);}
+	.serv:hover{ opacity: 1;filter:blur(0px);}
+	#down{    animation: down 2.5s infinite;  position: absolute; transition: 0.5s;}
+	@keyframes down {
+		0%{margin-top:-20px;}
+		50%{margin-top:20px;}
+		100%{margin-top:-20px;}
+	}
+	#header-ul-a{padding-top:10px; paddind-bottom:5px; margin-left:20px;}
+	#header-ul{float:left !important;}
+	#icon {background-color:#fff; height:60px; margin-top:10px;margin-bottom:10px; margin-left:10px;}
+	#header-logo{font-weight:100;float:right !important;padding:5px;}
+	.parallax-container{background-size: 150% !important;}
+	.to{margin-right:12% !important;}
+	.btn-css{width:auto; margin-bottom:30px !important;}
+	.input-field-margin{margin-top:40px !important;}
+	.large-btn-pc{padding-top:20px; padding-bottom:50px;}
+	.toast{top:50px !important;}
+	#sign_in  { width:40%; }
+	.parallax-container {height:100%;}
+	.pc-logo{padding-bottom:10%;padding-top:10%;}
+	.up-show{margin-top: -60px;}
+	.up-show .card-title h1{margin:30px 0px;}
+	.mail_padding{ padding: 40px;}
+	.logo{height:500px;}
+	.card-image{
+		position: relative;
+		width: 100%;
+		height: 300px;
+		height: 180px;
+		overflow: hidden;}
+	.home_logo{ margin-top: -20px;}
+	.container{width:75%; margin-top:90px;}
+	.tab a{font-family:"Droid Arabic Kufi";font-size: 40px; margin-right:60px;}
+	.padding{margin-top: 120px;}
+}
+@media only screen and (max-width: 1000px) {
+	.serv{min-height: 500px; opacity: 0.9; transition: 0.4s; cursor: pointer;filter:blur(0px);}
+	.map{margin-bottom:40px;
+		height:350px;}
+	#down{ display: none;}
+	#sidenav-overlay{opacity: 0 !important ;}
+	.parallax-container{}
+	.tooltipped{display: none important ;}
+	.home_logo{ margin-top: -40px;}
+	.container{ margin-top:110px;}
+	.side-nav{width:97%;}
+	.logo{height:200px;}
+	.margin{margin-top: 15px;}
+	.padding{margin-top: 20px;}
+	#mail{padding: 0px;border: 2px #fff solid;border-radius: 5px;text-align: center;text-decoration: rtl;margin-right: 10px; font-size:20pt;}
+	.mail_padding{ padding: 40px 10px;}
+}
+.card{font-family:"Droid Arabic Kufi"; font-size: 10px;}
+.font{font-family: 'Cairo', sans-serif;}
+.main{margin-top: 120px;}
+.none{display: none;}
+#button{border-radius:5px;text-align: center;text-decoration: rtl;margin-left: 10px;margin-top:0px;height: 70px;}
+.display_none{display: none; width: 20px; transition: 0.7s;}
+.search{display: inline; width:100px; }
+#sign_in .container input[type="text"] {border: 2px solid #000; border-radius: 5px; padding:4px;}
+#sign_in .container i { font-size: 50px;}
+.placeholder_black::-webkit-input-placeholder{ color: #636363;}
+.placeholder_black:-ms-input-placeholder{ color: #636363;}
+.placeholder_black:-moz-input-placeholder{ color: #636363;}
+a{ outline: none;}
+.model{margin-top:50px;position: absolute;}
+.material-tooltip{font-family: 'Cairo', sans-serif; box-shadow: 0px 0px 20px #000 ;}
+.circle{border-radius: 100px;}
+.ul- li{list-style-type: disc !important; direction: rtl; line-height: 2; font-size:15pt;}
+.label{color:#1976d2 !important; ;}
+
+.input-field label {  color: lightslategrey;  }
+.input-field input[type="email"]{text-align: center}
+.input-field input[type="email"]:focus + label {  color: #1e88e5  ;  }
+.input-field input[type="email"]:focus {  border-bottom: 1px solid #1e88e5 ;  }
+
+.input-field input[type="text"]{text-align: center}
+.input-field input[type="text"]:focus + label {  color: #1e88e5  ;}
+.input-field input[type="text"]:focus {  border-bottom: 1px solid #1e88e5 ;  }
+
+.input-field input[type="password"]{text-align: center}
+.input-field input[type="password"]:focus + label {  color: #1e88e5  ;  }
+.input-field input[type="password"]:focus {  border-bottom: 1px solid #1e88e5 ;  }
+
+.input-field .materialize-textarea{ text-align: center  }
+.input-field .materialize-textarea:focus + label {  color: #1e88e5  !important;  }
+.input-field .materialize-textarea:focus {  border-bottom: 1px solid #1e88e5 !important;  }
+
+.input-field .prefix.active {  color: #1e88e5;  }
